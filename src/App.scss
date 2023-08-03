@@ -1,0 +1,45 @@
+header{
+    nav{background-color: cornflowerblue;
+        text-align: center;
+        padding: 50px;
+        a{
+            color: azure;
+            font-size: 50px;
+            margin: 150px;
+           
+        }
+    }
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:200px;
+    flex-direction: column;
+    h1{font-size: 80px;
+        margin-bottom:150px ;}
+    h2{ text-align: center;}
+    .product{ display: flex; 
+        justify-content: space-around;
+        list-style: none;
+        li{ text-align: center;
+            div{
+                width: 700px;
+                height: 730px;
+                border-radius: 50%;
+                overflow: hidden;
+                img{
+        
+                }
+            }
+            .p1{
+                font-size: 40px;
+            }
+            .p2{
+                font-size: 30px;
+            }
+        }
+    }
+    
+}
